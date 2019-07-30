@@ -4,7 +4,7 @@
 
 # details
 
-```
+``` bash
 # elementUI Layout
 # elementUI Timeline
 # elementUI InfiniteScroll
