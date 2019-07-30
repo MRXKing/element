@@ -7,6 +7,7 @@
 ``` bash
 # elementUI Layout
 # elementUI Timeline
+# elementUI Card
 # elementUI InfiniteScroll
 # Vue Theme
 # Vue component
