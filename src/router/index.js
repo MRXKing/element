@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import timeline from '@/components/timeline'
-import image from '@/components/image'
-import container from '@/components/container'
-import theme from '@/components/theme'
+
+const  timeline = () => import('@/components/timeline')
+const  image = () => import('@/components/image')
+const  container = () => import('@/components/container')
+const  theme = () => import('@/components/theme')
 
 Vue.use(Router)
 
@@ -17,7 +18,7 @@ export default new Router({
         {
           path: '/timeline',
           name: 'timeline',
-          component: timeline
+          component:timeline
         },
         {
           path:'/image',
@@ -27,7 +28,7 @@ export default new Router({
         {
           path:'/theme',
           name:'theme',
-          component: theme
+          component:theme
         }
       ]
     }
