@@ -6,6 +6,7 @@ import container from '@/components/container'
 import theme from '@/components/theme'
 
 Vue.use(Router)
+
 export default new Router({
   routes: [
     {

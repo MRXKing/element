@@ -11,7 +11,7 @@
 export default {
    data(){
      return {
-       img:"/static/img/logo.png"
+       img:require("@/assets/img/logo.png")
      }
    }
 }

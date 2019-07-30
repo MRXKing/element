@@ -18,7 +18,7 @@
     data(){
      return {
        count: 0,
-       img:'/static/img/img.png'
+       img:require("@/assets/img/img.png")
      }
     },
     methods: {
